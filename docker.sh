@@ -11,8 +11,8 @@ sudo apt-get update
 
 apt-cache policy docker-engine
 
-sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual
+sudo apt-get -y install linux-image-extra-$(uname -r) linux-image-extra-virtual
 
 sudo apt-get update
 
-sudo apt-get install docker-engine
+sudo apt-get -y install docker-engine
