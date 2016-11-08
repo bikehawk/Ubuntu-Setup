@@ -6,5 +6,5 @@ sudo apt-get -y install golang
 
 
 cp ~/.bashrc ~/.bashrc.bak
-echo "export GOPATH=~/go" >> ~/.bashrc
-echo "export PATH=$PATH:$GOPATH" >> ~/.bashrc
+echo 'export GOPATH=~/go' >> ~/.bashrc
+echo 'export PATH=$PATH:$GOPATH' >> ~/.bashrc
